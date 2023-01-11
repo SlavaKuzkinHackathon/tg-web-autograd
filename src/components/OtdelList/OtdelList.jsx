@@ -23,7 +23,7 @@ const OtdelList = () => {
             products: addedItems,
             queryId,
         }
-        fetch('http://localhost:3000', {
+        fetch('213.232.228.2:8000', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
