@@ -13,12 +13,11 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <div className={'img'} />
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
-            <div className={'phone'}>
-                <span>Телефон: <b>{product.phone}</b></span>
-            </div>
+            <div className={'telegram'}>{product.telegram}</div>
             <Button className={'add-btn'} onClick={onAddHandler}>
                 позвонить {`+${product.phone}`}
             </Button>
+            
         </div>
     );
 };
