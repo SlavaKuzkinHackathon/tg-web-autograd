@@ -14,7 +14,7 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <div className={'telegram'}>{product.telegram}</div>
-            <a className={'telega'} href="https://telegram.me/"> {product.telegram}</a>
+            <a className={'telega'} href="https://t.me/">{product.telegram}</a>
             <Button className={'add-btn'} onClick={onAddHandler}>
                 позвонить {`+${product.phone}`}
             </Button>
