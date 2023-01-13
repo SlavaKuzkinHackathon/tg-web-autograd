@@ -9,17 +9,19 @@ const OtdelItem = ({ product, className, onAdd }) => {
         onAdd(product);
     }
 
-    
+    const telegaAdres = 'href="https://t.me/`${koreamarket_nsk}`"'
     return (
         <div className={'product ' + className}>
             <div className={'img'} />
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
-            <a href="https://t.me/koreamarket_nsk" target="_blank">{product.telegram}</a>
+            <a className={'telega'} href={`https://t.me/${product.telegram}`} target="_blank">{product.telegram}</a>
             <Button className={'add-btn'} onClick={onAddHandler}>
                 позвонить {`+${product.phone}`}
             </Button>
-            
+            <Button className={'add-btn'} href={`tel:+${product.phone}`} onClick={onAddHandler}>
+                позвонить {`+${product.phone}`}
+            </Button>
         </div>
     );
 };
