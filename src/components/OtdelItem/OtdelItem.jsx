@@ -16,8 +16,8 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <a className={'telega'} href={`https://t.me/${product.telegram}`} target="_blank">{product.telegram}</a>
-            <Button className={'add-btn'} onClick={onAddHandler} href={`tel:+${product.phone}`}>
-                позвонить +${product.phone_number}
+            <Button className={'add-btn'} onClick={onAddHandler} href={`tel:+9${product.phone}`}>
+                позвонить +{product.phone_number}
             </Button>
             <a className={'phone'} href={`tel:${product.phone_number}`} target="_blank">
                 {product.phone_number}
@@ -32,6 +32,9 @@ const OtdelItem = ({ product, className, onAdd }) => {
                 {product.phone_number}
             </a>
             <a className={'phone'} href={`tg://+${product.phone_number}`} >
+                {product.phone_number}
+            </a>
+            <a className={'phone'} href="tel: +79137009150">
                 {product.phone_number}
             </a>
         </div>
