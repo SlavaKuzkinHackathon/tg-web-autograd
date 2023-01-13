@@ -19,7 +19,7 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <Button className={'add-btn'} onClick={onAddHandler} href={`tel:+${product.phone}`}>
                 позвонить {`+${product.phone}`}
             </Button>
-            <a className={'phone'} href={`tel:${product.phone}`}>
+            <a className={'phone'} href={`tel:+9${product.phone}`} target="_blank">
                  {`${product.phone}`}
             </a>
         </div>
