@@ -16,12 +16,12 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <a className={'telega'} href={`https://t.me/${product.telegram}`} target="_blank">{product.telegram}</a>
-            <Button className={'add-btn'} onClick={onAddHandler}>
+            <Button className={'add-btn'} onClick={onAddHandler} href={`tel:+${product.phone}`}>
                 позвонить {`+${product.phone}`}
             </Button>
-            <Button className={'add-btn'} href={`tel:+${product.phone}`}>
-                позвонить {`+${product.phone}`}
-            </Button>
+            <a className={'phone'} href={`tel:+${product.phone}`}>
+                 {`+${product.phone}`}
+            </a>
         </div>
     );
 };
