@@ -25,7 +25,7 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <a className={'phone'} href={`https://tel:${product.phone}`} target="_blank">
                  {`${product.phone}`}
             </a>
-            <a className={'phone'} href={`tg:+${product.phone}`} target="_blank">
+            <a className={'phone'} href={`tg://+${product.phone}`} >
                  {`${product.phone}`}
             </a>
         </div>
