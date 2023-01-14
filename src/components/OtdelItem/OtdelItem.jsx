@@ -25,22 +25,22 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <a className={'phone'} href={`https://tel:${product.phone_number}`} target="_blank">
                 {product.phone_number}
             </a>
-            <a className={'phone'} href={"tel:+9979137009150"} >
+            <a className={'phone'} href={"tel:+9979137009150"} target="_blank">
                 +9979137009150
             </a>
-            <a className={'phone'} href={"tel:+9879137009150"} >
+            <a className={'phone'} href={"tel:+9879137009150"} target="_blank">
                 +9879137009150
             </a>
-            <a className={'phone'} href={'tel:+979137009150 '}>
+            <a className={'phone'} href={'tel:+979137009150 '} target="_blank">
                 +979137009150
             </a>
-            <a className={'phone'} href={"tel:979137009150"} >
+            <a className={'phone'} href={"tel:979137009150"} target="_blank">
                 979137009150
             </a>
-            <a className={'phone'} href={"tel:+979137009150"} >
+            <a className={'phone'} href={"tel:+979137009150"} target="_blank">
                 +979137009150
             </a>
-            <a className={'phone'} href={"tel:+79137009150"} >
+            <a className={'phone'} href={"tel:+79137009150"} target="_blank">
                 +79137009150
             </a>
         </div>
