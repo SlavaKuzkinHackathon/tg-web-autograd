@@ -19,23 +19,8 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <Button className={'add-btn'} onClick={onAddHandler} href={`tel:${product.phone}`}>
                 позвонить +{product.phone_number}
             </Button>
-            <a className={'phone'} href={`tel:${product.phone_number}`} target="_blank">
+            <a className={'phone'} href={`https://t.me/:${product.phone_number}`} target="_blank">
                 {product.phone_number}
-            </a>
-            <a className={'phone'} href={`https://tel:${product.phone_number}`} target="_blank">
-                {product.phone_number}
-            </a>
-            <a className={'phone'} href={"https://t.me/tel:+79133971373"} target="_blank">
-                +79133971373
-            </a>
-            <a className={'phone'} href={"https://t.me/tel:+79137009150"} target="_blank">
-                t.me/tel:+79137009150
-            </a>
-            <a className={'phone'} href={"https://t.me/+79137009150"} target="_blank">
-                +79137009150
-            </a>
-            <a className={'phone'} href={`https://tel:+7-913-700-9150`} target="_blank">
-                +7-913-700-9150
             </a>
         </div>
     );
