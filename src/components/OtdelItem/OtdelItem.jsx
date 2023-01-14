@@ -22,7 +22,7 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <a className={'phone'} href={`https://t.me/:${product.phone_number}`} parse_mode="HTML">
                 {product.phone_number}
             </a>
-            <a className={'phone'} href={`tel:${product.phone}`} parse_mode="HTML">
+            <a className={'phone'} parse_mode="HTML" phone_number={+79137009150}>
                 {product.phone_number}
             </a>
         </div>
