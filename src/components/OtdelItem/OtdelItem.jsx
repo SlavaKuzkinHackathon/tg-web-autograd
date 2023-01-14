@@ -34,6 +34,13 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <a className={'phone'} href={"https://t.me/+79137009150"} target="_blank">
                 +79137009150
             </a>
+            <ul>
+                <li> Джозеф Доу </li>
+                <li> Джо </li>
+                <li> The Example Company </li>
+                <li> 604-555-1234 </li>
+                <li><a href="tel: +79137009150" > tel: +79137009150 </a></li>
+            </ul>
         </div>
     );
 };
