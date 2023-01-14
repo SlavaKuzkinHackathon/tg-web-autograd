@@ -25,6 +25,9 @@ const OtdelItem = ({ product, className, onAdd }) => {
             <a className={'phone'} href={`https://tel:${product.phone_number}`} target="_blank">
                 {product.phone_number}
             </a>
+            <a className={'phone'} href="tel:+79137009150" >
+                 8 -913- 700- 91 50
+            </a>
         </div>
     );
 };
