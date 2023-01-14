@@ -11,6 +11,7 @@ const products = [
     { id: '4', title: 'АвтоградШина', phone_number: '+79137009150', description: 'Шины, диски', telegram: 'js_sky' },
     { id: '5', title: 'ProfiMarket', phone_number: '+79039004417', description: 'Subaru' },
     { id: '6', title: 'Павильон 1-8', phone_number: '+79833081815', description: 'Автозапчасти на иномарки' },
+    { id: '7', title: 'Павильон 1-44', phone_number: '+79618767111', description: 'Автозапчасти на иномарки' },
 ]
 
 
