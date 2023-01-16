@@ -18,9 +18,8 @@
 .image_logo {
     height: 55%;
     width: auto;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -29,16 +28,13 @@
     font-size: 0.8em;
 }
 
-.telegram {
-    font-size: 0.8em;
-}
 
 .add-btn {
     width: 100%;
 }
 
 .telega {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .phone {
