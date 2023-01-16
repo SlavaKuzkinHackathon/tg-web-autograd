@@ -13,7 +13,9 @@ const OtdelItem = ({ product, className, onAdd }) => {
     const telegaAdres = 'href="https://t.me/`${koreamarket_nsk}`"'
     return (
         <div className={'product ' + className}>
-            <img src={product.image} className={'img'} />
+            <div className={'img'}>
+                <img src={product.image} className={'image_logo'} />
+            </div>
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <a className={'telega'} href={`https://t.me/${product.telegram}`} target="_blank">{product.telegram}</a>

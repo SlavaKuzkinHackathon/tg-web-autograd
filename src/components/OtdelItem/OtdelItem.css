@@ -7,14 +7,14 @@
 }
 
 .image_logo{
-    height: 80px;
+    height: 70%;
     width: auto;
 }
 
 .img {
-    width: 70%;
+    width: 100%;
     background: lightgray;
-    height: auto;
+    height: 100px;
     margin: 0 auto;
     background: var(--tg-theme-button-color);
 }
