@@ -18,7 +18,7 @@
 .image_logo {
     height: 55%;
     width: auto;
-    display: inline-block;
+    position: absolute;
     vertical-align: middle;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .telega {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .phone {
