@@ -6,11 +6,15 @@
     width: 170px;
 }
 
+.image_logo{
+    height: 80px;
+    width: auto;
+}
 
 .img {
-    width: 100%;
+    width: 70%;
     background: lightgray;
-    height: 100px;
+    height: auto;
     margin: 0 auto;
     background: var(--tg-theme-button-color);
 }
