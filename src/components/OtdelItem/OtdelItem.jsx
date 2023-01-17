@@ -23,7 +23,6 @@ const OtdelItem = ({ product, className, onAdd }) => {
                 позвонить {product.phone_number}
             </Button>
         </div>
-
     );
 };
 
