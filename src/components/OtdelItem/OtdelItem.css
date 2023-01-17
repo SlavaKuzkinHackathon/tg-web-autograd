@@ -11,7 +11,7 @@
     width: 100%;
     background: lightgray;
     height: 100px;
-    
+    margin: 0 auto;
     background: var(--tg-theme-button-color);
     position: relative;
 }
@@ -19,8 +19,9 @@
 .image_logo {
     height: auto;
     width: 8em;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    margin: auto;
+    margin-top: 13px;
 }
 
 
